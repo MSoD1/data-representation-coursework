@@ -1,0 +1,23 @@
+<html>
+    <head>
+
+        <title>Lecture 6 2.3</title>
+        <!-- CSS Online code that makes the web page look nicer-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous">
+    </head>
+    <body>
+        <input id="name" type = "text" value = "Enter Name"/><br/>
+        <button onclick = "buttonClicked()">clcik me </button><br/>
+        <div id = "output">output will go here</div> <!--Until you type something into the box this will appear and then be replaced by what you've typed-->
+
+        <script> 
+            function buttonClicked(message){
+                var output= document.getElementById('name').value // Whatever you type replaced output i.e value is the input
+                document.getElementById('output').innerText = output 
+            }
+        </script>
+    </body>
+
+</html>
