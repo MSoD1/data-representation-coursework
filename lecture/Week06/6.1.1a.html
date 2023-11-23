@@ -1,0 +1,41 @@
+<html>
+    <head>
+
+        <title>my page</title>
+        <!-- CSS Online code that makes the web page look nicer-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous">
+    </head>
+    <body>
+        Books
+        <table class = "table"> <!-- Changes the layout to a table-->
+            <tr>
+
+                <th>Title</th>
+                <th>Author</th>
+            </tr>
+            <tr>
+                <th>Harry Potter</th>
+                <th>J.K Rowling</th>
+            </tr>
+        </table>
+
+
+        <div id = "myform">
+            name<input type ="text" id = "name" />  <br/>  
+            password<input type ="password" id = "password_input" /> <br/> 
+            Gender<br/>
+            male<input type = "radio" name ="gender" value = "male" id="male"> <!--NAME="" MUST BE THE SAME FOR BOTH RADIO BUTTONS OTHERWISE USER CAN SELECT BOTH OPTIONS-->
+            female<input type = "radio" name = "gender" value = "female" id="female">  <br/> 
+            
+            <input type = "submit" name = "Hit Here"  id="submit"> <br/> 
+            <button id = "other_button">Other One</button>
+        </div>
+
+        <script> 
+            console.log("hello mom") //Hit Inspect, then Console on Chrome to see if the java script had a bug-->
+        </script>
+    </body>
+
+</html>
