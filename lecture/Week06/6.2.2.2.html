@@ -1,0 +1,32 @@
+<html>
+    <head>
+
+        <title>2.2.2</title>
+        <!-- CSS Online code that makes the web page look nicer-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous">
+    </head>
+    <body>
+        <div id="div1" style="background-color: royalblue;"><br/>
+            some text <br/>
+            <button onclick="showDiv2()">show Div2</button>
+        </div>
+        <div id="div2" style="background-color: blueviolet;"><br/>
+            no text needed <br/>
+            <button onclick="showDiv1()">show Div1</button>
+        </div>
+        <script>
+            function showDiv2(){
+                document.getElementById("div1").style.display="none";
+                document.getElementById("div2").style.display="block";
+            }
+            function showDiv1(){
+                document.getElementById("div1").style.display="block";
+                document.getElementById("div2").style.display="none";
+            }
+
+        </script>
+    </body>
+
+</html>
