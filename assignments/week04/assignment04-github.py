@@ -1,6 +1,6 @@
 import pandas as pd
 
-assignment04 = 'https://github.com/MSoD1/data-representation-coursework/blob/main/assignments/assignment04-csv.py'
+assignment04 = 'https://github.com/MSoD1/data-representation-coursework/blob/main/assignments/week04/assignment04.csv'
 
 # creating a variable and storing the text 
 # that we want to search 
